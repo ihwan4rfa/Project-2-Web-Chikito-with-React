@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+.menu-section {
+    position: relative;
+    z-index: 5;
+    width: 100%;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-top: 64px;
+    background-color: white;
+    border-radius: 70px;
+    height: fit-content;
+}
+
+.img-ayam {
+    position: absolute;
+    visibility: hidden;
+    right: 0;
+    height: 128px;
+    top: -56px;
+    padding-left: 56px;
+    padding-right: 56px;
+}
+
+.img-ayam2 {
+    position: absolute;
+    visibility: visible;
+    height: 112px;
+    top: -80px;
+    padding-left: 56px;
+    padding-right: 56px;
+}
+
+.menu-head-section {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.menu-title-layout {
+    padding-left: 32px;
+    padding-right: 32px;
+    margin-bottom: 20px;
+}
+
+.menu-title-layout h1 {
+    font-family: 'Oswald';
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: #4A4A4A;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0.025em;
+    text-align: center;
+}
+
+.menu-title-layout p {
+    font-family: 'Lato';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #8A8A8A;
+    margin-bottom: 12px;
+    letter-spacing: -0.025em;
+    text-align: center;
+}
+
+.menu-button-section {
+    position: static;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.menu-button-layout {
+    position: static;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    right: 30px;
+    bottom: 16px;
+}
+
+.menu-button-noclicked {
+    font-family: 'Lato';
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    text-decoration: none;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    padding: 10px 15px 10px 15px;
+    background-color: white;
+    border: 2px solid rgb(138, 138, 138, 0.25);
+    border-radius: 999px;
+    color: #4A4A4A;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.menu-button-noclicked:hover {
+    border: 2px solid #FF6908;
+}
+
+.menu-button-clicked {
+    font-family: 'Lato';
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    text-decoration: none;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    padding: 10px 15px 10px 15px;
+    background-color: #FF6908;
+    border: 2px solid #FF6908;
+    border-radius: 999px;
+    color: white;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.menu-button-layout img {
+    height: 18px;
+    margin-left: 8px;
+}
+
+.menu-list-section {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 420px;
+    overflow-y: scroll;
+    margin-right: 45px;
+}
+
+.menu-list-section::-webkit-scrollbar {
+    width: 3px;
+}
+
+.menu-list-section::-webkit-scrollbar-track {
+    background-color: rgb(138, 138, 138, 0.25);
+    border-radius: 999px;
+}
+
+.menu-list-section::-webkit-scrollbar-thumb {
+    background-color: #8A8A8A;
+    border-radius: 999px;
+}
+
+.menu-list-layout {
+    font-family: 'Lato';
+    padding-left: 32px;
+    padding-right: 32px;
+    letter-spacing: -0.025em;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.flex {
+    display: flex;
+}
+
+.menu-dot {
+    margin-right: 12px;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FF6908;
+}
+
+.menu-item-title {
+    line-height: 20px;
+}
+
+.menu-item-description {
+    font-size: 12px;
+    line-height: 16px;
+    color: #8A8A8A;
+}
+
+.menu-item-price {
+    padding-top: 4px;
+    margin-left: 24px;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FF6908;
+}
+
+.menu-line {
+    display: none;
+}
+
+.inline {
+    display: inline;
+}
+
+.hidden {
+    display: none;
+}
+
+@media (min-width: 498px) {
+    .img-ayam2 {
+        height: 128px;
+    }
+}
+
+@media (min-width: 768px) {
+    .menu-section {
+        margin-top: 16px;
+    }
+
+    .img-ayam {
+        visibility: visible;
+    }
+
+    .img-ayam2 {
+        visibility: hidden;
+    }
+
+    .menu-head-section {
+        flex-direction: row;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .menu-title-layout {
+        width: 35%;
+    }
+
+    .menu-title-layout h1 {
+        font-size: 20px;
+        line-height: 28px;
+        text-align: left;
+    }
+
+    .menu-title-layout p {
+        font-size: 16px;
+        line-height: 24px;
+        margin-right: 40px;
+        text-align: left;
+    }
+
+    .menu-button-section {
+        position: relative;
+        width: 65%;
+    }
+
+    .menu-button-layout {
+        position: absolute;
+    }
+
+    .menu-button-layout a {
+        padding-left: 14px;
+        padding-right: 14px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .menu-button-layout img {
+        height: 14px;
+    }
+
+    .menu-list-section {
+        flex-direction: row;
+        padding-left: 12px;
+        padding-right: 12px;
+        height: auto;
+        margin-right: 0px;
+    }
+
+    .layout-30 {
+        width: 30%;
+    }
+
+    .layout-38 {
+        width: 38%;
+    }
+
+    .layout-100 {
+        width: 100%;
+    }
+
+    .menu-line {
+        display: inline;
+        width: 2px;
+        height: auto;
+        background-color: #8A8A8A;
+        margin-bottom: 16px;
+        opacity: 0.25;
+        border-radius: 999px;
+    }
+
+    .menu-list-section::-webkit-scrollbar-track {
+        display: none;
+    }
+}
+
+@media (min-width: 1024px) {
+    .img-ayam {
+        height: 160px;
+        top: -112px;
+    }
+
+    .menu-head-section {
+        padding-left: 56px;
+        padding-right: 56px;
+    }
+
+    .menu-title-layout h1 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .menu-title-layout p {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .menu-button-layout a {
+        padding-left: 24px;
+        padding-right: 24px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .menu-button-layout img {
+        height: 18px;
+    }
+
+    .menu-list-section {
+        padding-left: 56px;
+        padding-right: 56px;
+    }
+}

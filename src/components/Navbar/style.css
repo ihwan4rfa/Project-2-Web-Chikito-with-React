@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    position: fixed;
+    width: 100%;
+    z-index: 20;
+}
+
+.nav-layout {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 28px;
+}
+
+.logo {
+    cursor: pointer;
+    display: inline;
+    height: 36px;
+}
+
+.nav-desktop {
+    position: static;
+    display: none;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    line-height: 20px;
+    gap: 28px;
+    list-style: none;
+}
+
+.nav-list a {
+    color: #4A4A4A;
+    text-decoration: none;
+    letter-spacing: -0.025em;
+}
+
+.nav-list a:hover {
+    color: #FF6908;
+}
+
+.btn-primary1 {
+    display: none;
+    padding: 10px 15px;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    color: white;
+    background-color: #FF6908;
+    border-radius: 999px;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.contact img {
+    height: 30px;
+    cursor: pointer;
+}
+
+.btn-primary2 {
+    padding: 10px 12px;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    color: white;
+    background-color: #FF6908;
+    border-radius: 999px;
+    border: none;
+    margin: 10px;
+}
+
+.nav-mobile {
+    position: fixed;
+    z-index: 10;
+    background-color: white;
+    left: 0;
+    top: -400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 48px 32px;
+    margin-top: 56px;
+    font-family: 'Lato';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    transition: top 0.4s ease-in-out;
+}
+
+.nav-visible {
+    top: -10px;
+}
+
+.nav-hidden {
+    top: -400px;
+}
+
+.nav-list-col {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    list-style: none;
+}
+
+.nav-list-col a {
+    text-decoration: none;
+    color: #4A4A4A;
+    letter-spacing: -0.025em;
+}
+
+.nav-list-col a:hover {
+    color: #FF6908;
+}
+
+@media (min-width: 768px) {
+    .nav-desktop {
+        display: inline;
+    }
+
+    .btn-primary1 {
+        display: inline;
+    }
+
+    .contact {
+        display: none;
+    }
+
+    .nav-mobile {
+        position: static;
+        min-height: fit-content;
+        display: none;
+        padding: 0;
+    }
+}
+
+@media (min-width: 1024px) {
+    .nav-layout {
+        padding: 0px 80px;
+    }
+}
