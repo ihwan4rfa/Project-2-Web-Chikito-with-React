@@ -4,7 +4,7 @@ import '../Home/style.css'
 
 const Review = () => {
     return (
-        <section id="people-review" className="home-section">
+        <section id="people-review" className="people-review-section">
             <div className='content'>
                 <ContentLeft />
                 <ContentRight />
