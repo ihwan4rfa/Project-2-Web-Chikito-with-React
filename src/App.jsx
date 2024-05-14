@@ -14,9 +14,8 @@ const WebsiteChikito = () => {
       <Menus />
       <Promo />
       <Review />
-      {/* 
       <Location />
-      <Footer /> */}
+      {/* <Footer /> */}
     </div >
   )
 }

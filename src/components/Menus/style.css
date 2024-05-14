@@ -178,6 +178,10 @@
     display: flex;
 }
 
+.gap-3 {
+    gap: 12px;
+}
+
 .menu-dot {
     margin-right: 12px;
     font-size: 20px;
