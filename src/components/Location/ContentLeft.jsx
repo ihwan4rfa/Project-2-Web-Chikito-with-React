@@ -23,8 +23,8 @@ const ContentLeft = () => {
             <h1 className='text-title'>LOCATION</h1>
             <h2 className='text-highlight'>We have 2 restaurant locations</h2>
             <p className='text-description-people-review'>Temukan kami di lokasi yang strategis dan mudah dijangkau. Kunjungi kami dan nikmati pengalaman kuliner yang memuaskan!</p>
-            <iframe src={isNgentakClicked ? mapList.ngentak : mapList.nakula} width="120%" height="300"></iframe>
-            <div className="flex gap-3">
+            <iframe src={isNgentakClicked ? mapList.ngentak : mapList.nakula} width="100%" height="200"></iframe>
+            <div className="button-map-layout">
                 <h1 className={isNgentakClicked ? "menu-button-clicked" : "menu-button-noclicked"} onClick={toggleNgentakButton}>Ngentak</h1>
                 <h1 className={isNakulaClicked ? "menu-button-clicked" : "menu-button-noclicked"} onClick={toggleNakulaButton}>Nakula Sadewa</h1>
             </div>

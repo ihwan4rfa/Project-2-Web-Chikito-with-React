@@ -178,8 +178,10 @@
     display: flex;
 }
 
-.gap-3 {
+.button-map-layout {
+    display: flex;
     gap: 12px;
+    justify-content: center;
 }
 
 .menu-dot {
@@ -313,6 +315,10 @@
 
     .menu-list-section::-webkit-scrollbar-track {
         display: none;
+    }
+
+    .button-map-layout {
+        justify-content: start;
     }
 }
 
