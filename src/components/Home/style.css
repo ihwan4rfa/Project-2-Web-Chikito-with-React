@@ -554,10 +554,6 @@ iframe {
         padding-top: 90px;
     }
 
-    .people-review-section {
-        padding-top: 80px;
-    }
-
     .location-section {
         padding-top: 120px;
     }
@@ -748,6 +744,27 @@ iframe {
         justify-content: start;
         overflow-x: scroll;
     }
+
+    .box-review {
+        font-size: 14px;
+    }
+
+    .box-review p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .box-review h1 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .profil-review-layout {
+        width: 70px;
+        height: 70px;
+        top: -30px;
+    }
+
 }
 
 @media (min-width: 1024px) {
@@ -832,5 +849,24 @@ iframe {
     .img-layout-location {
         right: -160px;
         width: 550px;
+    }
+
+    .box-review p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .box-review h1 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .box-review {
+        font-size: 16px;
+    }
+
+    .profil-review-layout {
+        width: 75px;
+        height: 75px;
     }
 }
