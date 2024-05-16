@@ -28,6 +28,8 @@
     padding-top: 152px;
     margin-top: -60px;
     overflow: hidden;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
 }
 
 iframe {
