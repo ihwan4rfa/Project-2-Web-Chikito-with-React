@@ -1,13 +1,15 @@
 const NavlistMobile = (props) => {
 
-    const { data, isMenuOpen } = props;
+    const { linkList, isMenuOpen, toggleMenu } = props;
+    const keys = Object.keys(linkList);
+    const values = Object.values(linkList);
 
     return (
         <div className={`nav-mobile ${isMenuOpen ? 'nav-visible' : 'nav-hidden'}`}>
             <ul className='nav-list-col'>
-                {data.map((item) => (
-                    <li>
-                        <a href="#">{item}</a>
+                {keys.map((key, index) => (
+                    <li key={index}>
+                        <a onClick={toggleMenu} href={values[index]}>{key}</a>
                     </li>
                 ))}
             </ul>

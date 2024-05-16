@@ -14,7 +14,7 @@
     position: relative;
     z-index: 5;
     padding-bottom: 80px;
-    padding-top: 60px;
+    padding-top: 100px;
     overflow: hidden;
     border-bottom-left-radius: 70px;
     border-bottom-right-radius: 70px;
@@ -40,7 +40,6 @@ iframe {
 .promo-section {
     position: relative;
     z-index: 0;
-    padding-bottom: 40px;
     padding-top: 152px;
     margin-top: -60px;
     overflow: hidden;

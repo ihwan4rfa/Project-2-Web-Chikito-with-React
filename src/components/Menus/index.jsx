@@ -37,7 +37,7 @@ const Menus = () => {
     }
 
     return (
-        <section id="our_menus" className="menu-section">
+        <section id="our-menus" className="menu-section">
             <img className="img-ayam" src={Ayam1} alt="" />
             <img className="img-ayam2" src={Ayam2} alt="" />
             <MenuHead

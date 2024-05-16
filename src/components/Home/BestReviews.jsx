@@ -20,7 +20,7 @@ const BestReviews = () => {
     ]
 
     return (
-        <div className="reviews-section">
+        <div id='best-reviews' className="reviews-section">
             <div className="reviews-content">
                 <h1 className="reviews-title">BEST REVIEWS</h1>
                 <div className="reviews-layout">

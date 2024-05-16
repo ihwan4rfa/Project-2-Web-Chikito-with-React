@@ -6,7 +6,7 @@ import '../Menus/style.css'
 
 const Location = () => {
     return (
-        <section id="people-review" className="location-section">
+        <section id="location" className="location-section">
             <Background />
             <div className='content'>
                 <ContentLeft />
