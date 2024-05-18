@@ -106,6 +106,7 @@
 
 .menu-button-noclicked:hover {
     border: 2px solid #FF6908;
+    transition: ease-in-out 0.1s;
 }
 
 .menu-button-clicked {

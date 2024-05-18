@@ -7,7 +7,7 @@ const TopBar = (props) => {
 
     return (
         <div className='contact'>
-            <button className='btn-primary2'>{contact}</button>
+            <a href='#footer' className='btn-primary2'>{contact}</a>
             <img id='menu' src={isMenuOpen ? CloseIcon : MenuIcon} onClick={toggleMenu} alt="" />
         </div>
     )

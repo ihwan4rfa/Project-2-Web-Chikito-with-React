@@ -9,7 +9,7 @@ const NavlistMobile = (props) => {
             <ul className='nav-list-col'>
                 {keys.map((key, index) => (
                     <li key={index}>
-                        <a onClick={toggleMenu} href={values[index]}>{key}</a>
+                        <a className="nav-list-link" onClick={toggleMenu} href={values[index]}>{key}</a>
                     </li>
                 ))}
             </ul>

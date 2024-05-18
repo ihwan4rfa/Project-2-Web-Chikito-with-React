@@ -5,7 +5,7 @@
     position: relative;
     z-index: 0;
     padding-bottom: 40px;
-    padding-top: 112px;
+    padding-top: 90px;
     overflow: hidden;
 }
 
@@ -183,6 +183,7 @@ iframe {
 
 .social-media a:hover {
     color: #FF6908;
+    transition: ease-in-out 0.1s;
 }
 
 .img-sosmed {
@@ -267,6 +268,7 @@ iframe {
 
 .btn-order:hover {
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    transition: ease-in-out 0.1s;
 }
 
 .btn-video {
@@ -282,6 +284,7 @@ iframe {
 
 .btn-video:hover {
     color: #FF6908;
+    transition: ease-in-out 0.1s;
 }
 
 .btn-video-style {
@@ -296,6 +299,7 @@ iframe {
 
 .btn-video-style:hover {
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    transition: ease-in-out 0.1s;
 }
 
 .content-right {
@@ -388,6 +392,7 @@ iframe {
 
 .review-item a:hover {
     color: #FF6908;
+    transition: ease-in-out 0.1s;
 }
 
 .review-item-content {

@@ -9,10 +9,10 @@ const NavlistDesk = (props) => {
             <ul className='nav-list'>
                 {keys.map((key, index) => (
                     <li key={index}>
-                        <a href={values[index]}>{key}</a>
+                        <a className="nav-list-link" href={values[index]}>{key}</a>
                     </li>
                 ))}
-                <button className='btn-primary1'>{contact}</button>
+                <a href='#footer' className='btn-primary1'>{contact}</a>
             </ul>
         </div>
     )
